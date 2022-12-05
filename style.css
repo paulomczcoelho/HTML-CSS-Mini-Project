@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    background-image:url(img/mcz.jpg);
+    height: 301px;
+    background-size: 100% 300px ;
+}
+.top-bar h1{
+    position: relative;
+    top: 95px;
+    text-align: center;
+    color: rgb(220, 205, 205);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #650608;
+    font-size: 53px;
+}
+.top-bar .title-top-bar {
+color: rgb(247, 247, 247);;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(42, 31, 138);
+    font-size: 53px;
+    
+}
+nav.nav-bg{
+    background-color: #11619E;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-menu{
+    margin: 0 auto;
+}
+.nav-menu ul{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 940px;
+
+    color: white;
+}
+.nav-menu ul li{
+    display: inline-block;
+    font-size: 28px;
+    padding: 24px 30px;
+}    
+.nav-menu ul li:hover{
+    display: inline-block;
+    background-color: #650608;
+    padding: 24px 30px;
+}
+section{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 940px;
+    margin-top: 80px;
+}
+.card{
+    display: inline-block;
+    width: 380px;
+    border-radius: 7px;
+    margin: 20px 30px 20px 40px;
+    box-shadow: 8px 10px 19px -2px #960200;
+}
+.card:hover {
+    box-shadow: 8px 10px 19px -2px #11619E;
+}
+.card .card-body{
+    max-width: 290px;
+    height: 190px;
+    text-align: start;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.card .card-header{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 18px 0px 5px 8px;
+    height: 40px;
+    background-color: #650608;
+    color: white;
+}
+.card .card-title{
+    padding: 15px 5px 5px 5px ;
+}
+.card .card-text{
+    padding: 10px 5px 5px 5px;
+}
+.img-card{
+    border: 1px blue;
+    max-width: 65px;
+    max-height: 65px;
+    border-radius: 50%;
+    position: relative;
+    left: -150px;
+    top: -67px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.topnav #myLinks {
+    display: none;
+    color: #11619E;
+}
+.topnav a {
+    color: white;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a.icon {
+    background:#11619E;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.active {
+    background-color: #11619E;
+    color: white;
+}
+.nav-menu img{
+    display: none;
+}
+.fa{
+    position: relative;
+    top: 33px;
+    right: 20px;
+    display: none;
+    font: normal normal normal 22px/1 FontAwesome;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+footer{
+    height: 50px;
+    background-color: #11619E;
+}
+footer h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+}
+footer p{
+    text-align: end;
+    position: relative;
+    right: 7px;
+    color: lightgray;
+}
+/*=================Media Query==================*/
+@media screen and ( min-width:1701px){
+    .card{
+        /* margin: 10px 15px 10px 20px; */
+           margin: 15px 45px 70px 45px;
+    }
+    section{
+        max-width: 1500px;
+    } 
+}
+@media screen and ( max-width:450px){
+   
+    .top-bar{
+        height: 150px;
+        background-size: 100% 150px;
+    }
+    .top-bar .title-top-bar{
+        font-size: 30px;
+    }
+    .topnav a.icon {
+        display: block;
+        background-color: #11619E;
+    }
+    .topnav{
+        top: 0px;
+        width: 100%;
+    }
+    .fa{
+        display: inline-block;
+        position: relative;
+        top: 19px;
+    }
+    .nav-menu ul li p{
+        display: none;
+    }
+    .nav-menu ul li:hover{
+        background-color: #11619E;
+    }
+    #myLinks a{
+        border-bottom: 1px solid #11619E;
+        font-size: 20px;
+        padding: 10px;
+        background-color: #ffffff;
+        color: #11619E;
+    }
+    #myLinks a:hover{
+        background-color: #11619E;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .card{
+        width: 300px;
+        height: 200px;
+        margin: 0 15px 40px 15px;
+       /*    margin: 15px 45px 70px 45px;*/
+    }
+    .card .card-body{
+        padding: 0px 12px 0px 12px;
+    }
+    .img-card {
+    max-width: 60px;
+    max-height: 60px;
+    
+    position: relative;
+    left: -85px;
+    top: -65px;
+    }
+    .nav-menu img{
+        position: absolute;
+        
+        left: 9px;
+        display: block;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    section{
+        max-width: 1500px;
+    }
+
+   
+}

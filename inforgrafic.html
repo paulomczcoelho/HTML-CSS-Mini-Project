@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Alagoas Infografic</title>
+</head>
+<body>
+    <header class="top-bar">
+        <!-- <h1>I Love Maceió</h1> -->
+        <h1 class="title-top-bar">I Love Maceió</h1>
+    </header>
+    
+    <div class="topnav">
+        <div href="#home" class="active nav-menu">
+            <img src="/img/Sem título-1.fw.png" alt="Logo MCZ">
+            <ul>
+                <li class="vert-line"><p>Cities</p></li>
+                <li class="vert-line"><p>Region</p></li>
+                <li class="vert-line"><p>Food</p></li>
+                <li class="vert-line"><p>Vegetation</p></li>
+
+            </ul>
+        </div>
+            <div id="myLinks">
+              <a href="#news">Cities</a>
+              <a href="#contact">Litoral</a>
+              <a href="#about">Food</a>
+              <a href="#about">Artesanado</a>
+            </div>
+            
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+      
+    <section>
+        <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
+            <div class="card-header"><h2>State</h2>
+                <img class="img-card" src="img/Sem título-1.fw.png" alt="Food"> 
+           </div>
+            <div class="card-body">
+                <h2 class="card-title">Alagoas</h2>
+                <p class="card-text"><strong>Capital:</strong>Maceió</p>
+                <p class="card-text"><strong>Population:</strong>2.6 million</p>
+            </div> 
+        </div>     
+        <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
+            <div class="card-header"><h2>Region</h2>
+                <img class="img-card" src="img/favpng_map-icon-gps.png" alt="Food"> 
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">North West</h2>
+                <p class="card-text"><strong>Longest coastline in the country</strong></p>
+                <p class="card-text"><strong>3 Thousand kms of Coastline </strong></p>
+            </div> 
+        </div>  
+        <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
+            <div class="card-header"><h2>Economy</h2>
+                <img class="img-card" src="img/economia.fw.png" alt="Food"> 
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Economic Activites </h2>
+                <p class="card-text"><strong>Alcoohol and Sugar plants</strong></p>
+                <p class="card-text"><strong>Tourism</strong></p>
+            </div> 
+        </div>  <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
+            <div class="card-header"><h2>Food</h2>
+                <img class="img-card" src="img/1996068.png" alt="Food"> 
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Regional Foods</h2>
+                <p class="card-text"><strong>Seafood</strong></p>
+                <p class="card-text"><strong>Cuscus, Tapioca, Acaraje</strong></p>
+            </div> 
+        </div>  <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
+            <div class="card-header"><h2>Parties</h2>
+                <img class="img-card" src="img/party.png" alt="Food"> 
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Main parties</h2>
+                <p class="card-text"><strong>Carnaval</strong></p>
+                <p class="card-text"><strong>São Jõao</strong></p>
+            </div> 
+        </div>  <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
+            <div class="card-header"><h2>Artists</h2>
+                <img class="img-card" src="img/music.jpg" alt="Food"> 
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Musics</h2>
+                <p class="card-text"><strong>Djavam</strong></p>
+                <p class="card-text"><strong>Eliezer Setton</strong></p>
+            </div> 
+        </div>  <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
+            <div class="card-header"><h2>Weather</h2>
+                <img class="img-card" src="img/forecast.jpg" alt="Food"> 
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Tropical</h2>
+                <p class="card-text"><strong>Average temperature: </strong>33º C</p>
+                <p class="card-text"><strong>Highest temperature: </strong>35.8º C</p>
+            </div> 
+        </div>  <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
+            <div class="card-header"><h2>Vegetation</h2>
+                <img class="img-card" src="img/veg.png" alt="Food"> 
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Variety</h2>
+                <p class="card-text"><strong>Atlantic Forest: </strong>Mangroves, coconut trees</p>
+                <p class="card-text"><strong>Caatinga: </strong>
+                    Mandacaru and Xique-xique</p>
+            </div> 
+    </section>
+    <footer class="foot">
+        <h3>Alagoas 205 Years</h3>
+        <p>By Paulo Coelho</p>
+    </footer>
+   
+    <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>
