@@ -39,6 +39,9 @@ nav.nav-bg{
 
     color: white;
 }
+li.vert-line{
+    display: none;
+}
 .nav-menu ul li{
     display: inline-block;
     font-size: 28px;
@@ -157,8 +160,7 @@ footer p{
 /*=================Media Query==================*/
 @media screen and ( min-width:1701px){
     .card{
-        /* margin: 10px 15px 10px 20px; */
-           margin: 15px 45px 70px 45px;
+        margin: 15px 45px 70px 45px;
     }
     section{
         max-width: 1500px;
@@ -170,7 +172,6 @@ footer p{
     #myLinks a{
         display: none;
     }
-
 }
 @media screen and ( max-width:450px){
    
